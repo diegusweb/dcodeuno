@@ -12,7 +12,7 @@ function connect() {
 
 function get_actors_by_last_name( $letter ) {
 	global $pdo;
-
+    //loquese asda sd asdas
 	$stmt = $pdo->prepare('
 		SELECT actor_id, first_name, last_name 
 		FROM actor
