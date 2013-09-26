@@ -12,7 +12,7 @@ function connect() {
 
 function get_actors_by_last_name( $letter ) {
 	global $pdo;
-    //loquese asda sd asdas BRACNH LOCAL TH
+    //loquese asda sd asdas BRACNH LOCAL TH dsafsd fs f
 	$stmt = $pdo->prepare('
 		SELECT actor_id, first_name, last_name 
 		FROM actor
@@ -26,7 +26,7 @@ function get_actors_by_last_name( $letter ) {
 
 function get_actor_info( $actor_id ) {
 	global $pdo;
-	//demooo;  BRACNH LOCAL TH  DEVELOPPPP ssssssssssssssss
+	//demooo;  BRACNH LOCAL TH  DEVELOPPPP ss ssssss ssssss ss
 	$stmt = $pdo->prepare('
 		SELECT film_info, first_name, last_name 
 		FROM actor_info
