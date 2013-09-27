@@ -3,7 +3,7 @@
 require 'functions.php';
 connect();
 
-// for AJAXsss
+// for AJAXsss DIgo DIgo
 if ( isXHR() ) {
 	if ( isset($_POST['q']) ) {
 		echo json_encode( get_actors_by_last_name( $_POST['q'] ) );
