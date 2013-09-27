@@ -1,7 +1,7 @@
 <?php
 
 function isXHR() {
-	//demooo;  BRACNH LOCAL TH ssssssss ssss ssss ssssss
+	//demooo;  BRACNH LOCAL TH ssssssss ssss ssss ssssss DIgo
 	return isset( $_SERVER['HTTP_X_REQUESTED_WITH'] );
 }
 
@@ -12,7 +12,7 @@ function connect() {
 
 function get_actors_by_last_name( $letter ) {
 	global $pdo;
-    //loquese asda sd asdas BRACNH LOCAL TH dsafsd fs f OTRO
+    //loquese asda sd asdas BRACNH LOCAL TH dsafsd DIgo fs f OTRO
 	$stmt = $pdo->prepare('
 		SELECT actor_id, first_name, last_name 
 		FROM actor
